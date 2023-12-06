@@ -6,7 +6,7 @@ export const Header = ({allProducts, setAllProducts, total, countProducts,setCou
 
 	const onDeleteProduct = (product) => {
 		const results = allProducts.filter(
-			item => item.id !== product.id
+			item => item.licor_id !== product.licor_id
 		);
 
 		setTotal(total - product.price * product.quantity);
@@ -58,13 +58,13 @@ export const Header = ({allProducts, setAllProducts, total, countProducts,setCou
 							<>
 								<div className="row-product">
 									{allProducts.map(product => (
-										<div className="cart-product" key={product.id }>
+										<div className="cart-product" key={product.licor_id }>
 										<div className="info-cart-product">
 											<span className="cantidad-producto-carrito">
 												<b>{product.quantity}</b>
 											</span>
 											<p className="titulo-producto-carrito">
-												{product.nameProduct}
+												{product.product_name}
 											</p>
 											<span className="precio-producto-carrito">
 												<b>${product.price}</b>

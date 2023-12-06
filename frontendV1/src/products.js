@@ -6,7 +6,7 @@ import img5 from './assets/tequila_don_ramon.webp'
 import img6 from './assets/whisky_yamaki.webp'
 import img7 from './assets/whisky_chivas.webp'
 import img8 from './assets/paquete_tezon.webp'
-import img9 from './assets/brandy_alma.webp'
+import img9 from '/frontendV1/src/assets/brandy_alma.webp'
 
 export const products = [
     {
