@@ -29,14 +29,14 @@ header{
   position: fixed;
     display: flex;
     justify-content: space-between;
-    padding:  20px 30px;
+    padding:  30px 30px;
     width: 100%;
-    background-color: #f8f9fa;
+    background-color: #f1e6d9;
     z-index: 100;
 }
 
 .nav-brand{
-  width: 140px;
+  width: 220px;
 }
 .container-icon{
     position: relative;
