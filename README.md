@@ -1,4 +1,4 @@
-# Proyecto Temas Selectos de Ingeniería en COmputación 
+# Proyecto Temas Selectos de Ingeniería en Computación 
 
 App Web - Kubernets
 
